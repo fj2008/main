@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Daemo">
-        <activity android:name=".activity_findPw"></activity>
+        <activity android:name=".activity_food"></activity>
+        <activity android:name=".activity_service" />
+        <activity android:name=".activity_findPw" />
         <activity android:name=".activity_findId" />
         <activity android:name=".activity_join" />
         <activity android:name=".activity_login1" />
