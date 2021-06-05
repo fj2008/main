@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="100sp"
-            android:text="비밀번호 찾기"
+            android:text="@string/find_pw"
             android:textSize="34sp" />
 
         <LinearLayout
@@ -44,7 +44,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="아이디" />
+                    android:text="@string/id" />
 
                 <EditText
                     android:id="@+id/editTextTextPersonName6"
@@ -82,7 +82,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="이메일" />
+                    android:text="@string/email" />
 
                 <EditText
                     android:id="@+id/editTextTextPersonName"
@@ -104,7 +104,7 @@
             android:layout_marginEnd="15sp"
             android:layout_marginRight="15sp"
             android:layout_marginBottom="70sp"
-            android:text="가입하셨을때 입력하셨던 아이디 이메일을 입력해 주세요" />
+            android:text="@string/find_pw_message" />
 
         <Button
             android:id="@+id/button3"
@@ -113,7 +113,7 @@
             android:layout_gravity="center"
             android:layout_margin="50sp"
             android:gravity="center"
-            android:text="확인" />
+            android:text="@string/ok" />
     </LinearLayout>
 
 </LinearLayout>

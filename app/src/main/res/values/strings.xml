@@ -1,5 +1,33 @@
 <resources>
     <string name="app_name">daemo</string>
+    <string name="app_mainname">김대리 오늘 뭐먹나?</string>
     <string name="login">로그인</string>
     <string name="join">회원가입</string>
+    <string name="id">아이디</string>
+    <string name="pw">비밀번호</string>
+    <string name="email">이메일</string>
+    <string name="find_id">아이디찾기</string>
+    <string name="find_pw">비밀번호찾기</string>
+    <string name="chack_pw">비밀번호확인</string>
+    <string name="id_message">아이디는 6자~16자 이하로 입력해주세요.</string>
+    <string name="pw_message">비밀번호는6자이상 영문포함 대소문자 구분을 하며 !,@,#와 같은 특수문자는 제한됩니다.</string>
+    <string name="section">중복확인</string>
+    <string name="find_id_message">가입하셨을때 입력하셨던 이메일을 입력해 주세요</string>
+    <string name="ok">확인</string>
+    <string name="find_pw_message">가입하셨을때 입력하셨던 아이디와 이메일을 입력해 주세요</string>
+    <string name="soup">국물</string>
+    <string name="rise">밥</string>
+    <string name="noodle">면</string>
+    <string name="meet">고기</string>
+    <string name="Steaming">찜.탕</string>
+    <string name="Fried">튀김</string>
+    <string name="lunch">김대리 오늘 점심엔 뭐먹나?</string>
+    <string name="diner">김대리 오늘 저녁은 뭐가 좋을까?</string>
+    <string name="liquor">김대리 오늘 술한잔 할까?</string>
+    <string name="lunch_answar">김대리 점심고르는 센스가 아주 좋아!</string>
+    <string name="diner_answar">김대리 저녁고르는 센스가 아주 좋아!</string>
+    <string name="liquor_answar">김대리 술안주고르는 센스가 아주 좋아!</string>
+    <string name="answar">버튼을 눌러서 해당음식의 음식점을 찾아보세요!</string>
+    <string name="back_answar">이 음식은 별로인가요? 다시 추천해드릴게요!</string>
+
 </resources>

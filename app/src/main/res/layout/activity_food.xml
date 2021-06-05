@@ -11,30 +11,46 @@
         android:id="@+id/textView15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="김대리 점심고르는 센스가 아주 좋아!" />
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="70sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginRight="20sp"
+        android:gravity="center"
+        android:text="@string/lunch_answar"
+        android:textSize="34sp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="40sp"
         app:srcCompat="@drawable/food1" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/button14"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginEnd="30sp"
+        android:layout_marginRight="30sp"
+        android:text="@string/answar" />
 
     <Button
         android:id="@+id/button15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="30sp"
+        android:layout_marginRight="30sp"
+        android:text="@string/back_answar" />
 
 </LinearLayout>

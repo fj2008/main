@@ -25,7 +25,7 @@
             android:layout_marginEnd="10sp"
             android:layout_marginRight="10sp"
             android:layout_weight="1"
-            android:text="국물" />
+            android:text="@string/rise" />
 
         <Button
             android:id="@+id/button5"
@@ -34,7 +34,7 @@
             android:layout_marginStart="10sp"
             android:layout_marginLeft="10sp"
             android:layout_weight="1"
-            android:text="튀김" />
+            android:text="@string/soup" />
     </LinearLayout>
 
     <LinearLayout
@@ -54,7 +54,7 @@
             android:layout_marginEnd="10sp"
             android:layout_marginRight="10sp"
             android:layout_weight="1"
-            android:text="면" />
+            android:text="@string/noodle" />
 
         <Button
             android:id="@+id/button13"
@@ -63,7 +63,7 @@
             android:layout_marginStart="10sp"
             android:layout_marginLeft="10sp"
             android:layout_weight="1"
-            android:text="고기" />
+            android:text="@string/Steaming" />
     </LinearLayout>
 
     <LinearLayout
@@ -84,7 +84,7 @@
             android:layout_marginEnd="10sp"
             android:layout_marginRight="10sp"
             android:layout_weight="1"
-            android:text="밥" />
+            android:text="@string/meet" />
 
         <Button
             android:id="@+id/button8"
@@ -93,7 +93,7 @@
             android:layout_marginStart="10sp"
             android:layout_marginLeft="10sp"
             android:layout_weight="1"
-            android:text="찜.탕" />
+            android:text="@string/Fried" />
     </LinearLayout>
 
     <CheckBox
@@ -101,19 +101,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30sp"
-        android:text="김대리 오늘 점심엔 뭐먹나?" />
+        android:text="@string/lunch" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30sp"
-        android:text="김대리 오늘 저녁은 뭐가 좋을까?" />
+        android:text="@string/diner" />
 
     <CheckBox
         android:id="@+id/checkBox3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="김대리 오늘 술한잔 할까?" />
+        android:text="@string/liquor" />
 
 </LinearLayout>
